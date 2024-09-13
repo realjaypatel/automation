@@ -23,5 +23,4 @@ def main():
             x = future.result()
             print(f"Processed ArtId: {x}")
 
-if __name__ == "__main__":
-    main()
+main()
